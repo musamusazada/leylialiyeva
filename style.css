@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Maven Pro", sans-serif;
+  position: relative;
+  overflow-x: hidden;
+}
+body * {
+  font-size: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.fs-4 {
+  font-size: 4rem;
+}
+.fs-2 {
+  font-size: 2rem;
+}
+.fs-3 {
+  font-size: 3rem;
+}
+.my-2 {
+  margin: 2rem 0;
+}
+.bg-y {
+  background: #ffbe0b;
+}
+.bg-db {
+  background: #003049;
+}
+.bg-l {
+  background: #eae2b7;
+}
+.bg-r {
+  background: #d62828;
+}
+.bg-or {
+  background: #f77f00;
+}
+.bg-p {
+  background: #f5cac3;
+}
+.text-center {
+  text-align: center;
+}
+.color-r {
+  color: #d62828;
+}
+.full {
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4rem;
+}
+.smile {
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+.photo-card {
+  height: 600px;
+  background: #fff;
+  padding: 20px 10px 50px 10px;
+}
+.rotate-left {
+  transform: rotate(-15deg);
+}
+.rotate-right {
+  transform: rotate(15deg);
+}
+.photo-card-image {
+  height: 100%;
+}
+.photo-card img {
+  height: 100%;
+}
+
+.crazy {
+  gap: 90px;
+}
+.love {
+  gap: 90px;
+}
+.family {
+  gap: 90px;
+}
+.birthday {
+  gap: 60px;
+}
+
+@media only screen and (min-width: 200px) {
+  html {
+    font-size: 9px;
+  }
+  .photo-card {
+    height: 316px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  html {
+    font-size: 12px;
+  }
+  .photo-card {
+    height: 500px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  .photo-card {
+    height: 600px;
+  }
+}
