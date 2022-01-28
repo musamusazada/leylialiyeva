@@ -93,16 +93,16 @@ img {
 }
 
 .crazy {
-  gap: 90px;
+  gap: 40px;
 }
 .love {
-  gap: 90px;
+  gap: 40px;
 }
 .family {
-  gap: 90px;
+  gap: 40px;
 }
 .birthday {
-  gap: 60px;
+  gap: 40px;
 }
 
 @media only screen and (min-width: 200px) {
@@ -124,6 +124,15 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  .photo-card {
+    height: 400px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
   html {
     font-size: 16px;
   }
